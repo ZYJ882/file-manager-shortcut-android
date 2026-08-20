@@ -7,7 +7,7 @@
 | 项目 | 值 |
 |---|---|
 | 应用 ID | `app.auralis.filelauncher` |
-| 版本 | `1.0.0` |
+| 版本 | `1.0.1` |
 | 最低 Android 版本 | Android 8.0（API 26） |
 | 目标 Android 版本 | Android 15（API 35） |
 | 许可证 | MIT |
@@ -20,11 +20,11 @@
 
 ## 下载与安装
 
-已构建的安装包位于 [`releases/v1.0.0/FileManagerShortcut-v1.0.0-debug.apk`](releases/v1.0.0/FileManagerShortcut-v1.0.0-debug.apk)。这是一个以 Android 调试证书签名的 APK，适合个人安装与测试；在设备提示时，允许对应来源安装未知应用即可。
+当前安装包位于 [`releases/v1.0.1/FileManagerShortcut-v1.0.1-debug.apk`](releases/v1.0.1/FileManagerShortcut-v1.0.1-debug.apk)。该版本修复了启动器图标的白边问题。这是一个以 Android 调试证书签名的 APK，适合个人安装与测试；在设备提示时，允许对应来源安装未知应用即可。
 
 | 文件 | SHA-256 |
 |---|---|
-| `FileManagerShortcut-v1.0.0-debug.apk` | `5d9c21a262053f9bcdbbedc0d8f8493f26e342782b810d1fcf632e33f241fffd` |
+| `FileManagerShortcut-v1.0.1-debug.apk` | `52fb4040148328c4ffc97da2afdac3e6c623efbf4eb6bb71357c38072a65d826` |
 
 正式分发或上架应用商店前，请使用自己的发布签名密钥构建并签名，不要使用仓库内的调试 APK。
 
@@ -48,7 +48,7 @@ sdk.dir=/absolute/path/to/Android/Sdk
 |---|---|
 | `app/src/main/java/` | 唯一的快捷入口 Activity |
 | `app/src/main/res/` | 启动器图标与主题资源 |
-| `releases/v1.0.0/` | 已验证的调试 APK 与 SHA-256 校验文件 |
+| `releases/` | 各版本调试 APK 与 SHA-256 校验文件 |
 | `.github/workflows/` | GitHub Actions 调试构建工作流 |
 
 ## 许可证
