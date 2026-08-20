@@ -1,0 +1,1 @@
+5d9c21a262053f9bcdbbedc0d8f8493f26e342782b810d1fcf632e33f241fffd  releases/file-manager-shortcut-v1.0.0/FileManagerShortcut-v1.0.0-debug.apk
